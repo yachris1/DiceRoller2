@@ -2,4 +2,5 @@
     <string name="app_name">DiceRoller</string>
     <string name="action_settings">Settings</string>
     <string name="button">Button</string>
+    <string name="input_number_1_6">input number (1-6)</string>
 </resources>
