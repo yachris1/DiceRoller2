@@ -68,13 +68,6 @@ public void on_button_click(View view){
         EditText tv2 = (EditText) this.findViewById(R.id.editText2);
         TextView tv3 = (TextView) this.findViewById(R.id.textView3);
 
-
-       // Random r = new Random();
-       // int max=6, min=1;
-       // int number = r.nextInt((max - min) + 1) + min;
-
-       // tv.setText(Integer.toString(number));
-
         int first = Integer.valueOf(tv.getText().toString());
         int second = Integer.valueOf(tv2.getText().toString());
 

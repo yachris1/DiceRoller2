@@ -1,0 +1,23 @@
+Index: app/src/main/java/com/example/diceroller/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/diceroller/MainActivity.java	(date 1572215901000)
++++ app/src/main/java/com/example/diceroller/MainActivity.java	(date 1572216920000)
+@@ -67,14 +67,7 @@
+         TextView tv = (TextView) this.findViewById(R.id.textView);
+         EditText tv2 = (EditText) this.findViewById(R.id.editText2);
+         TextView tv3 = (TextView) this.findViewById(R.id.textView3);
+-
+-
+-       // Random r = new Random();
+-       // int max=6, min=1;
+-       // int number = r.nextInt((max - min) + 1) + min;
+-
+-       // tv.setText(Integer.toString(number));
+-
++        
+         int first = Integer.valueOf(tv.getText().toString());
+         int second = Integer.valueOf(tv2.getText().toString());
+ 
